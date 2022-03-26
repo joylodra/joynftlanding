@@ -193,13 +193,10 @@ footer {
   box-shadow: 3px 3px 0 0 var(--shadow-color);
 }
 
-.active, .accodrion:hover {
-  box-shadow: none;
-}
-
-.accordion:hover  {
+.active, .accordion:hover {
   filter: brightness(120%);
   font-style: italic;
+  box-shadow: none;
 }
 
 .panel {
