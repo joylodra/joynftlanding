@@ -216,10 +216,13 @@ footer {
     min-height: 300px;
   
     /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /* Filter */
+    filter: brightness(0.6);
 }
 
 .parallax__img {}
@@ -257,6 +260,10 @@ footer {
     margin-left: 0;
     padding: 1rem;
     max-width: 8rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
   }
 
   .parallax h1 {
