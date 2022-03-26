@@ -24,6 +24,7 @@
 
 header {
   background-color: var(--accent-color);
+  /* background-image: linear-gradient(to right, var(--btn-bg-color) 70%, var(--bg-color)); */
 }
 
 body {
@@ -129,10 +130,10 @@ footer {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
+  /* background: var(--btn-bg-color); */
+  background-image: linear-gradient(to right, var(--btn-bg-color) 70%, var(--bg-color));
   color: var(--bg-color);
   font-family: var(--font-secondary);
-  font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
@@ -147,7 +148,8 @@ footer {
 
 .btn:hover {
   box-shadow: none;
-  filter: brightness(150%);
+  filter: brightness(120%);
+  font-style: italic;
 }
 
 .wallet-btn {
@@ -173,7 +175,8 @@ footer {
 /* ACCORDION */
 
 .accordion {
-  background-color: var(--btn-bg-color);
+  /* background-color: var(--btn-bg-color); */
+  background-image: linear-gradient(to right, var(--btn-bg-color) 40%, var(--bg-color));
   font-family: var(--font-secondary);
   color: var(--bg-color);
   cursor: pointer;
@@ -186,7 +189,7 @@ footer {
   border-radius: 4px;
   font-size: 22px;
   font-weight: bold;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   box-shadow: 3px 3px 0 0 var(--shadow-color);
 }
 
@@ -195,7 +198,7 @@ footer {
 }
 
 .accordion:hover  {
-  filter: brightness(150%);
+  filter: brightness(120%);
   font-style: italic;
 }
 
@@ -204,6 +207,7 @@ footer {
   background-color: var(--bg-color);
   display: none;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 /* PARALLAX SECTION */
